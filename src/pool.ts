@@ -8,7 +8,8 @@ import * as https from "https";
 // import { } from "query-string";
 // import stringify from 'query-string/;
 // import * as queryString from 'query-string/base.js';
-import queryString from 'query-string';
+// import queryString from 'query-string';
+import { stringify } from "query-string";
 import * as urlModule from "url";
 
 /**
@@ -377,7 +378,8 @@ export class Pool {
     if (options.query) {
       // path += "?" + queryString.stringify(options.query);
       // path += "?" + stringify(options.query);
-      path += "?" + queryString.stringify(options.query);
+      // path += "?" + queryString.stringify(options.query);
+      path += "?" + stringify(options.query);
     }
 
     const req = request(
