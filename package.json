@@ -73,6 +73,6 @@
     "webpack": "^4.43.0"
   },
   "dependencies": {
-    "query-string": "8.1.0"
+    "query-string": "git://github.com/AMP-Robotics/query-string.git#c43126c5d56a17fdc85de1ecc48ad3c3472df9da"
   }
 }
