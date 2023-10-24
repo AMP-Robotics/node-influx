@@ -4,7 +4,8 @@ import { Host } from "./host";
 
 import * as http from "http";
 import * as https from "https";
-import * as querystring from "querystring";
+// import * as querystring from "querystring";
+import * as queryString from "query-string";
 import * as urlModule from "url";
 
 /**
@@ -371,7 +372,7 @@ export class Pool {
     let path = host.url.pathname === "/" ? "" : host.url.pathname;
     path += options.path;
     if (options.query) {
-      path += "?" + querystring.stringify(options.query);
+      path += "?" + queryString.stringify(options.query);
     }
 
     const req = request(
