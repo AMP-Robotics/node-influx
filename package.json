@@ -33,7 +33,7 @@
     "db"
   ],
   "contributors": [
-    "Brian Leach ,brian@amprobotics.com>"
+    "Brian Leach <brian@amprobotics.com>"
   ],
   "license": "MIT",
   "devDependencies": {
