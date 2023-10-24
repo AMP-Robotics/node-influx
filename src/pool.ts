@@ -7,7 +7,8 @@ import * as https from "https";
 // import queryString from "query-string";
 // import { } from "query-string";
 // import stringify from 'query-string/;
-import * as queryString from 'query-string/base.js';
+// import * as queryString from 'query-string/base.js';
+import queryString from 'query-string';
 import * as urlModule from "url";
 
 /**
